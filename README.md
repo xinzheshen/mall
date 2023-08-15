@@ -5,7 +5,8 @@
   <a href="#公众号"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E4%BA%A4%E6%B5%81-%E5%BE%AE%E4%BF%A1%E7%BE%A4-2BA245.svg" alt="交流"></a>
   <a href="https://github.com/macrozheng/mall-learning"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%AD%A6%E4%B9%A0%E6%95%99%E7%A8%8B-mall--learning-green.svg" alt="学习教程"></a>
   <a href="https://github.com/macrozheng/mall-swarm"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/Cloud%E7%89%88%E6%9C%AC-mall--swarm-brightgreen.svg" alt="SpringCloud版本"></a>
-  <a href="https://github.com/macrozheng/mall-admin-web"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%89%8D%E7%AB%AF%E9%A1%B9%E7%9B%AE-mall--admin--web-green.svg" alt="前端项目"></a>
+  <a href="https://github.com/macrozheng/mall-admin-web"><img src="https://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%90%8E%E5%8F%B0%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F-mall--admin--web-green.svg" alt="后台管理系统"></a>
+  <a href="https://github.com/macrozheng/mall-app-web"><img src="https://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%89%8D%E5%8F%B0%E5%95%86%E5%9F%8E%E9%A1%B9%E7%9B%AE-mall--app--web-green.svg" alt="前台商城项目"></a>
   <a href="https://gitee.com/macrozheng/mall"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E7%A0%81%E4%BA%91-%E9%A1%B9%E7%9B%AE%E5%9C%B0%E5%9D%80-orange.svg" alt="码云"></a>
 </p>
 
@@ -13,8 +14,8 @@
 
 > 1. **快速体验项目**：[在线访问地址](https://www.macrozheng.com/admin/index.html) 。
 > 2. **全套学习教程**：[《mall学习教程》](https://www.macrozheng.com) 。
-> 3. **微服务版本**：基于Spring Cloud 2021 & Alibaba的项目：[mall-swarm](https://github.com/macrozheng/mall-swarm) 。
-> 4. **专属学习路线**：学习不走弯路，整理了套非常不错的[《mall专属学习路线》](#公众号) 。
+> 3. **视频教程（2023最新版）**：[《mall视频教程》](https://www.macrozheng.com/mall/catalog/mall_video.html) 。
+> 4. **微服务版本**：基于Spring Cloud 2021 & Alibaba的项目：[mall-swarm](https://github.com/macrozheng/mall-swarm) 。
 > 5. **项目交流**：想要加群交流项目的朋友，可以加入[mall项目交流群](#公众号) 。
 
 ## 前言
@@ -23,8 +24,7 @@
 
 ## 项目文档
 
-- 文档地址：[https://www.macrozheng.com](https://www.macrozheng.com)
-- 备用地址：[https://macrozheng.github.io/mall-learning](https://macrozheng.github.io/mall-learning)
+文档地址：[https://www.macrozheng.com](https://www.macrozheng.com)
 
 ## 项目介绍
 
@@ -42,11 +42,11 @@
 
 #### 前台商城系统
 
-前端项目`mall-app-web`地址：敬请期待......
+前端项目`mall-app-web`地址：https://github.com/macrozheng/mall-app-web
 
-项目演示地址：[https://www.macrozheng.com/app/mainpage.html](https://www.macrozheng.com/app/mainpage.html)
+项目演示地址（将浏览器切换为手机模式效果更佳）：[https://www.macrozheng.com/app/](https://www.macrozheng.com/app/)
 
-![前台商城系统功能演示](http://img.macrozheng.com/mall/project/mall_app_show.png)
+![前台商城系统功能演示](http://img.macrozheng.com/mall/project/re_mall_app_show.jpg)
 
 ### 组织结构
 
@@ -67,13 +67,13 @@ mall
 
 | 技术                 | 说明                | 官网                                           |
 | -------------------- | ------------------- | ---------------------------------------------- |
-| SpringBoot           | 容器+MVC框架        | https://spring.io/projects/spring-boot         |
+| SpringBoot           | Web应用开发框架      | https://spring.io/projects/spring-boot         |
 | SpringSecurity       | 认证和授权框架      | https://spring.io/projects/spring-security     |
 | MyBatis              | ORM框架             | http://www.mybatis.org/mybatis-3/zh/index.html |
-| MyBatisGenerator     | 数据层代码生成      | http://www.mybatis.org/generator/index.html    |
+| MyBatisGenerator     | 数据层代码生成器     | http://www.mybatis.org/generator/index.html    |
 | Elasticsearch        | 搜索引擎            | https://github.com/elastic/elasticsearch       |
 | RabbitMQ             | 消息队列            | https://www.rabbitmq.com/                      |
-| Redis                | 分布式缓存          | https://redis.io/                              |
+| Redis                | 内存数据存储         | https://redis.io/                              |
 | MongoDB              | NoSql数据库         | https://www.mongodb.com                        |
 | LogStash             | 日志收集工具        | https://github.com/elastic/logstash            |
 | Kibana               | 日志可视化查看工具  | https://github.com/elastic/kibana              |
@@ -84,10 +84,10 @@ mall
 | OSS                  | 对象存储            | https://github.com/aliyun/aliyun-oss-java-sdk  |
 | MinIO                | 对象存储            | https://github.com/minio/minio                 |
 | JWT                  | JWT登录支持         | https://github.com/jwtk/jjwt                   |
-| Lombok               | 简化对象封装工具    | https://github.com/rzwitserloot/lombok         |
+| Lombok               | Java语言增强库      | https://github.com/rzwitserloot/lombok         |
 | Hutool               | Java工具类库        | https://github.com/looly/hutool                |
 | PageHelper           | MyBatis物理分页插件 | http://git.oschina.net/free/Mybatis_PageHelper |
-| Swagger-UI           | 文档生成工具        | https://github.com/swagger-api/swagger-ui      |
+| Swagger-UI           | API文档生成工具      | https://github.com/swagger-api/swagger-ui      |
 | Hibernator-Validator | 验证框架            | http://hibernate.org/validator                 |
 
 #### 前端技术
@@ -103,15 +103,25 @@ mall
 | Js-cookie  | cookie管理工具        | https://github.com/js-cookie/js-cookie |
 | nprogress  | 进度条控件            | https://github.com/rstacruz/nprogress  |
 
+#### 移动端技术
+
+| 技术         | 说明             | 官网                                    |
+| ------------ | ---------------- | --------------------------------------- |
+| Vue          | 核心前端框架     | https://vuejs.org                       |
+| Vuex         | 全局状态管理框架 | https://vuex.vuejs.org                  |
+| uni-app      | 移动端前端框架   | https://uniapp.dcloud.io                |
+| mix-mall     | 电商项目模板     | https://ext.dcloud.net.cn/plugin?id=200 |
+| luch-request | HTTP请求框架     | https://github.com/lei-mu/luch-request  |
+
 #### 架构图
 
 ##### 系统架构图
 
-![系统架构图](http://img.macrozheng.com/mall/project/mall_micro_service_arch.jpg)
+![系统架构图](http://img.macrozheng.com/mall/project/re_mall_system_arch.jpg)
 
 ##### 业务架构图
 
-![系统架构图](http://img.macrozheng.com/mall/project/mall_business_arch.png)
+![业务架构图](document/resource/re_mall_business_arch.jpg)
 
 #### 模块介绍
 
@@ -129,7 +139,7 @@ mall
 
 #### 开发进度
 
-![项目开发进度图](http://img.macrozheng.com/mall/project/mall_dev_flow.png)
+![项目开发进度图](http://img.macrozheng.com/mall/project/re_mall_dev_flow.jpg)
 
 ## 环境搭建
 
@@ -194,9 +204,7 @@ mall
 
 ## 公众号
 
-学习不走弯路，关注公众号「**macrozheng**」，回复「**学习路线**」，获取mall项目专属学习路线！
-
-加微信群交流，公众号后台回复「**加群**」即可。
+加微信群交流，关注公众号「**macrozheng**」，回复「**加群**」即可。
 
 ![公众号图片](http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/banner/qrcode_for_macrozheng_258.jpg)
 
@@ -204,4 +212,4 @@ mall
 
 [Apache License 2.0](https://github.com/macrozheng/mall/blob/master/LICENSE)
 
-Copyright (c) 2018-2022 macrozheng
+Copyright (c) 2018-2023 macrozheng
